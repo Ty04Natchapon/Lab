@@ -33,7 +33,7 @@ class simple_drawing_window1(QWidget):
         p.end()
 
 def main():
-    app = QApplication(sys.argv)  # Correct class for widget-based applications
+    app = QApplication(sys.argv)  
 
     w = simple_drawing_window1()
     w.show()
